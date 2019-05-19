@@ -1,0 +1,4 @@
+//Contains a primitive concept representing the number of sides on each dice.
+integer (NumSidesConcept) {
+  description (The number of sides to the dice.)
+}

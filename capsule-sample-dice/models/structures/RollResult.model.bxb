@@ -1,0 +1,26 @@
+structure (RollResultConcept) {
+  description (The result object produced by the RollDice action.)
+  property (sum) {
+    type (SumConcept)
+    min (Required)
+    max (One)
+  }
+  property (roll) {
+    description (The list of results for each dice roll.)
+    type (RollConcept)
+    min (Required)
+    max (Many)
+  }
+   property (loss) {
+    description (The list of results for each craps loss.)
+    type (RollConcept)
+    min (Required)
+    max (Many)
+  }
+    property (win) {
+    description (The list of results for each craps loss.)
+    type (RollConcept)
+    min (Required)
+    max (Many)
+  }  
+}

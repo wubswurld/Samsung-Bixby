@@ -1,0 +1,4 @@
+//sum of a multiple dice rolls.
+integer (SumConcept) {
+  description (The total sum of all the dice rolled.)
+}

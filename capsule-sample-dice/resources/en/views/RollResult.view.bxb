@@ -1,0 +1,32 @@
+ result-view {
+   match {
+     RollResultConcept (rollResult)
+   }
+
+   render {
+     layout {
+       section {
+         content {
+           single-line {
+             text {
+               style (Detail_M)
+               value ("Die: #{value(rollResult.roll)}")
+             }
+           }
+           single-line {
+             text {
+               style (Detail_M)
+               value ("Roll Sum: #{value(rollResult.sum)}")
+             }
+           }
+           single-line {
+             text {
+               style (Detail_M)
+               value ("Win's: #{value(rollResult.win)}")
+             }
+           }
+         }
+       }
+     }
+   }
+ }

@@ -1,0 +1,4 @@
+//result of each roll
+integer (RollConcept) {
+  description (The result of a dice roll.)
+}

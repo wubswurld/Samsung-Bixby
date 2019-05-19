@@ -1,0 +1,4 @@
+//Contains a primitive concept representing the number of dice in a roll.
+integer (NumDiceConcept) {
+  description (The number of dice to throw.)
+}
